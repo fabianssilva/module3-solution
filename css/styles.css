@@ -28,6 +28,7 @@ body{
 
 #our-menu h2 {
 	color:black;
+  font-size: 1.25em;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus { /* Behavior of the Menu */
@@ -80,7 +81,7 @@ section {
    
 section	h2{
 	margin: 0 0 0 30%;
-	font-size: 1.25em;
+	font-size: 1.05em;
 	padding: 2px 0;
 	width: 40%;
 }
