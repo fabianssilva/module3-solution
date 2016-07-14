@@ -18,6 +18,7 @@ body{
   border-radius: 0;
   border: solid #b3e6ff;
   border-width: thin;
+  background-color: #d9eff0;
 }
 
 .navbar-brand h1 { /* Restaurant name */
