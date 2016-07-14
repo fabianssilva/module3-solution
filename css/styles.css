@@ -8,12 +8,58 @@
 body{
 		font-size: 28px;
 		color: #fff;
-		background-color: #61122f;
+		background-color: white;
 		font-family: 'Oxygen', sans-serif;
 
 
 }
-		
+
+#header-nav {
+  border-radius: 0;
+  border: solid #b3e6ff;
+  border-width: thin;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#our-menu h2 {
+	color:black;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus { /* Behavior of the Menu */
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar { /*Mobile menu composition */
+  border: 1px solid #337ab7;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: #337ab7;
+  text-align: center;
+  border-radius: 0;
+  border-bottom-style: solid;
+  border-width: thin;
+  background-color: #f2f2f2;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+	
 h1 {
 	margin-bottom: 15px;
 	margin-right: auto;
@@ -22,20 +68,19 @@ h1 {
 }
 
 
+
 section {
     background-color: #999999;
     border: 1px solid #000000;
     margin: 10% 15px 25px 10px;
     padding: 20;
+    height: 1000px;
 }
 
    
 section	h2{
-	border-bottom: 1px solid #000000;
-	border-left: 1px solid #000000;
-	margin: 0 0 0 60%;
+	margin: 0 0 0 30%;
 	font-size: 1.25em;
-	text-align: center;
 	padding: 2px 0;
 	width: 40%;
 }
@@ -45,198 +90,10 @@ section p {
 }
 
 #chicken h2 {
-	background-color: #d59898;
+
 	color: #161616;
 }
 
-#beef h2 {
-	background-color: #c14543;
-	color: #e8e8e8;
-}
-
-#sushi h2 {
-	background-color: #ffeb99;
-	color: #161616;
-}
-
-		
-/* Simple Responsive Framework. */
-.row {
-	width: 100%;
-}
-/********** Large devices only **********/
-@media (min-width: 992px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-	float: left;
-	}
-	.col-lg-1 {
-	width: 8.33%;
-	}
-	.col-lg-2 {
-	width: 16.66%;
-	}
-	.col-lg-3 {
-	width: 25%;
-	}
-	.col-lg-4 {
-	width: 33.33%;
-	}
-	.col-lg-5 {
-	width: 41.66%;
-	}
-	.col-lg-6 {
-	width: 50%;
-	}
-	.col-lg-7 {
-	width: 58.33%;
-	}
-	.col-lg-8 {
-	width: 66.66%;
-	}
-	.col-lg-9 {
-	width: 74.99%;
-	}
-	.col-lg-10 {
-	width: 83.33%;
-	}
-	.col-lg-11 {
-	width: 91.66%;
-	}
-	.col-lg-12 {
-	width: 100%;
-	}
-}
 
 
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-	float: left;
-	}
-	.col-md-1 {
-	width: 8.33%;
-	}
-	.col-md-2 {
-	width: 16.66%;
-	}
-	.col-md-3 {
-	width: 25%;
-	}
-	.col-md-4 {
-	width: 33.33%;
-	}
-	.col-md-5 {
-	width: 41.66%;
-	}
-	.col-md-6 {
-	width: 50%;
-	}
-	.col-md-7 {
-	width: 58.33%;
-	}
-	.col-md-8 {
-	width: 66.66%;
-	}
-	.col-md-9 {
-	width: 74.99%;
-	}
-	.col-md-10 {
-	width: 83.33%;
-	}
-	.col-md-11 {
-	width: 91.66%;
-	}
-	.col-md-12 {
-	width: 100%;
-	}
-
-	#sushi {
-	clear: left;
-	margin-left: 10px;
-	margin-right: 20px;
-	width: 97%;   	
-	}
-
-	#sushi h2 {
-	margin: 0 0 0 80%;
-	width: 20%;
-	}
-
-}
-
-
-/********** Medium devices only **********/
-@media (max-width: 767px) {
-  .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-	float: left;
-	}
-	.col-xs-1 {
-	width: 8.33%;
-	}
-	.col-xs-2 {
-	width: 16.66%;
-	}
-	.col-xs-3 {
-	width: 25%;
-	}
-	.col-xs-4 {
-	width: 33.33%;
-	}
-	.col-xs-5 {
-	width: 41.66%;
-	}
-	.col-xs-6 {
-	width: 50%;
-	}
-	.col-xs-7 {
-	width: 58.33%;
-	}
-	.col-xs-8 {
-	width: 66.66%;
-	}
-	.col-xs-9 {
-	width: 74.99%;
-	}
-	.col-xs-10 {
-	width: 83.33%;
-	}
-	.col-xs-11 {
-	width: 91.66%;
-	}
-	.col-xs-12 {
-	width: 100%;
-	}
-
- 
-	section {
-		margin-top: 5%;
-	}
-
-	#beef {
-		margin-top: 0;
-	}
-
-	#sushi {
-		margin-top: 0;
-	}
-
-
-	#chicken h2 {
-		margin: 0 0 0 70%;
-		width: 30%;
-	}
-
-	 #beef h2 {
-		margin: 0 0 0 80%;
-		width: 20%;
-	}
-
-	 
-	#sushi h2 {
-		margin: 0 0 0 80%;
-		width: 20%;
-	}
-
-
-
-}
+	
